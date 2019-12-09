@@ -8,15 +8,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.post('/guest-tracking', async (req, res) => {
-  //console.log(req);
   console.log(req.body);
-  res.send('Greetings, you added a new User!🎉👋');
+  //res.send('Greetings, you added a new User!🎉👋');
+  res.json({
+    text: 'Created a new User! Greetings `user` !🎉👋✔️'
+  });
 });
 
 app.post('/purchase', async (req, res) => {
-  //console.log(req);
   console.log(req.body);
-  res.send('Ok, we created an order for you. 🎉👍');
+  //res.send('Ok, we created an order for you. 🎉👍');
+  res.json({
+    text: 'Thanks for your purchase request! 🎉👍'
+  });
 });
 
 const PORT = 9647;
