@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.post("/purchase", async (req, res) => {
+app.post('/purchase', async (req, res) => {
   console.log(req);
 });
 
