@@ -1,5 +1,6 @@
 import { post } from 'axios';
 import * as config from '../config';
+import { monitorEventLoopDelay } from 'perf_hooks';
 
 const sendDM = async (userId, message) => {
 try {
@@ -20,4 +21,8 @@ try {
     throw error;
 }
 
+};
+
+module.exports = {
+    sendDM
 }
