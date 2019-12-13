@@ -1,6 +1,8 @@
-import { post } from 'axios';
-import * as config from '../config';
-import { monitorEventLoopDelay } from 'perf_hooks';
+const axios = require('axios')
+const config = require('../config')
+//import { post } from 'axios';
+//import * as config from '../config';
+//import { monitorEventLoopDelay } from 'perf_hooks';
 
 const sendDM = async (userId, message) => {
 try {
@@ -25,4 +27,4 @@ try {
 
 module.exports = {
     sendDM
-}
+};
