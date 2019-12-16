@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 require('dotenv').config();
 const app = express();
 
-
 // allow us to easily process POST requests
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());

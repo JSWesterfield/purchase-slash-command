@@ -16,7 +16,6 @@ try {
                 Authorization: `Bearer ${config.botToken}`
             }
         }
-        
     )
     console.log(response);
 } catch (error) {
