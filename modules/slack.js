@@ -13,8 +13,8 @@ try {
         },
         {
             headers: {
-                Authorization: `Bearer ${config.botToken}`
-            }
+                Authorization: `Bearer ${config.botToken}`,
+           }
         }
     )
     console.log(response);
