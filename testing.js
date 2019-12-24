@@ -2,4 +2,4 @@
 // send a DM to a user with their UserID
 const {sendDM} = require('./modules/slack');
 
-sendDM('WR83BUS04', 'This is a test message for sendDM functionality. Oh Boy!');
+sendDM('WRKHK320K', 'This is a test message for sendDM functionality. Oh Boy!');
