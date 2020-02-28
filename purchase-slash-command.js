@@ -23,7 +23,7 @@ app.post('/purchase', async (req, res) => {
   });
 });
 
-const PORT = 3000;
+const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Slack bot server has started on port ${PORT}`);
 });

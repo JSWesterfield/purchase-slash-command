@@ -24,6 +24,7 @@ try {
 }
 
 };
+pwd
 
 module.exports = {
     sendDM
